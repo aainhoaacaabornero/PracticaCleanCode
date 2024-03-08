@@ -1,0 +1,15 @@
+PRACTICA DE CLEAN CODE
+
+1. Cuenta con nombres significativos: Los nombres de variables como n1Num, n2Num, resultado, y array son descriptivos y reflejan su propósito en el contexto del programa.
+
+2. Tiene funciones y métodos pequeños y concisos: El método main() no es muy extenso y se divide en secciones, lo que facilita su comprensión y mantenimiento.
+
+3. Comentarios útiles: Los comentarios son breves pero útiles para comprender rápidamente qué hace cada parte del código y no repiten lo que se entiende con el propio código.
+
+4. Estructuras de datos: El código cuenta con algunas como son los arrays que pueden contener un número fijo de elementos del mismo tipo y acceder a ellos mediante los índices.
+
+5. Manejo de errores y excepciones: Es muy importante para la fiabilidad del programa. Proporcionar mensajes claros de error como "No se puede dividir entre cero" y anticiparse a posibles problemas teniendo en cuenta previamente las excepciones ayuda a mejorar la experiencia del usuario y facilita la depuración del código.
+
+6. Test unitarios: Incluir pruebas unitarias es fundamental para garantizar la calidad del código y su comportamiento esperado en diferentes situaciones. El proyecto debe ser un proyecto Maven con un archivo pom.xml para ejecutar las pruebas. Esto es importante, ya que los proyectos Maven son típicamente configurados para ejecutar pruebas de manera automatizada.
+
+7. Clases: Existe una clase externa llamada Tema8Test que contiene los test unitarios. Es importante organizar las pruebas en clases separadas para mantener una estructura clara y facilitar su ejecución y mantenimiento.
